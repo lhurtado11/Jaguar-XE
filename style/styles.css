@@ -11,3 +11,42 @@ body {
     background-attachment: fixed;
 }
 
+.main-container {
+    font-size: 16px;
+    min-height: 10em;
+    max-width: 600px;
+    color: #FFF;
+    background-color: rgba(0,0,0, .70);
+    display: flex;
+    align-items: flex-center;
+    justify-content: flex-end;  
+    padding: 0.8em;
+    margin: 4em  7em;
+    border-radius: 0.7em;
+}
+/* contenedor titulo, descripción */
+.main-container .container {
+    margin: 1em 1em 0.1em 1em;    
+}
+.main-container .container h2 {
+    padding: 0.2em;
+    margin-bottom: 0.3em;
+}
+.main-container .container p {
+    padding: 0.2em;
+    margin-bottom: 0.5em;
+}
+.main-container .container a {
+    background:#DB3030;
+    padding: 0.4em 0.5em;
+    border-radius: 0.1em;
+   
+}
+.main-container .container button {
+    color: #FFF;
+    background: #DB3030;
+    border:none;
+    margin: 1em;
+    padding: auto;
+    font-size: 1em;
+}
